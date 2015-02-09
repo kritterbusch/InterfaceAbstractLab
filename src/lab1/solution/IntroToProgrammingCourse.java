@@ -1,7 +1,5 @@
 package lab1.solution;
 
-import javax.swing.JOptionPane;
-
 /**
  * This class holds data for an Introduction to Programming course. NOTE: this
  * class has NO PREREQUISITES! Do not change this fact.
@@ -23,7 +21,6 @@ public class IntroToProgrammingCourse extends Course {
     @Override
     public String toString() {
         return super.toString();
-                
 
     }
 

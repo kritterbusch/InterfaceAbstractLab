@@ -1,12 +1,10 @@
 package lab1.solution;
 
-
-
 /**
  * This class holds data for an Introduction to Java course.
  *
- * @author      Kerry Ritterbusch
- * @version     1.00
+ * @author Kerry Ritterbusch
+ * @version 1.00
  */
 public class IntroJavaCourse extends Course {
 
@@ -17,12 +15,11 @@ public class IntroJavaCourse extends Course {
 
     }
 
-
-
     public String getPrerequisites() {
         return prerequisites = "\n\t-Introduction to Programming";
     }
-@Override
+
+    @Override
     public void setPrerequisites(String prereqs) {
         this.prerequisites = prereqs;
     }
@@ -30,7 +27,6 @@ public class IntroJavaCourse extends Course {
     @Override
     public String toString() {
         String str = super.toString();
-                
 
         return str;
     }

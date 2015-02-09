@@ -64,7 +64,6 @@ public class IntroJavaCourse implements Classes {
                 + "\nCourse Number: " + courseNumber
                 + "\nCredits: " + credits
                 + "\nPrerequisites: " + prerequisites;
-                
 
     }
 }

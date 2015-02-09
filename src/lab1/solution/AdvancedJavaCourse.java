@@ -1,7 +1,5 @@
 package lab1.solution;
 
-import javax.swing.JOptionPane;
-
 /**
  * This class holds data for an Advanced Java course.
  *
@@ -25,7 +23,6 @@ public class AdvancedJavaCourse extends Course {
     @Override
     public String toString() {
         String str = super.toString();
-                
 
         return str;
     }

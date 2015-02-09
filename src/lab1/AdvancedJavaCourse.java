@@ -5,10 +5,11 @@ import javax.swing.JOptionPane;
 /**
  * Describe responsibilities here.
  *
- * @author      your name goes here
- * @version     1.00
+ * @author your name goes here
+ * @version 1.00
  */
 public class AdvancedJavaCourse {
+
     String courseName;
     private String courseNumber;
     private double credits;
@@ -29,7 +30,7 @@ public class AdvancedJavaCourse {
     }
 
     public void setPrerequisites(String prerequisites) {
-        if(prerequisites == null || prerequisites.length() == 0) {
+        if (prerequisites == null || prerequisites.length() == 0) {
             JOptionPane.showMessageDialog(null,
                     "Error: prerequisites cannot be null of empty string");
             System.exit(0);
@@ -38,7 +39,7 @@ public class AdvancedJavaCourse {
     }
 
     public void setCredits(double credits) {
-        if(credits < 0.5 || credits > 4.0) {
+        if (credits < 0.5 || credits > 4.0) {
             JOptionPane.showMessageDialog(null,
                     "Error: credits must be in the range 0.5 to 4.0");
             System.exit(0);
@@ -61,5 +62,5 @@ public class AdvancedJavaCourse {
     public void setCourseNumber(String courseNumber) {
         this.courseNumber = courseNumber;
     }
-    
+
 }

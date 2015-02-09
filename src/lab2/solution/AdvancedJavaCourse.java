@@ -1,10 +1,9 @@
 package lab2.solution;
 
-import lab2.*;
 import javax.swing.JOptionPane;
 
 /**
- * Describe responsibilities here.
+ * This class holds data for an Advanced Java course.
  *
  * @author Kerry Ritterbusch
  * @version 1.00
@@ -86,7 +85,6 @@ public class AdvancedJavaCourse implements Classes {
                 + "\nCourse Number: " + courseNumber
                 + "\nCredits: " + credits
                 + "\nPrerequisites: " + prerequisites;
-                
 
     }
 

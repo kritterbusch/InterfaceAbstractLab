@@ -3,9 +3,9 @@ package lab2.solution;
 import javax.swing.JOptionPane;
 
 /**
- * Describe responsibilities here.
+ * This class holds data for an Introduction to Programming course.
  *
- * @author your name goes here
+ * @author Kerry Ritterbusch
  * @version 1.00
  */
 public class IntroToProgrammingCourse implements Classes {
@@ -63,7 +63,7 @@ public class IntroToProgrammingCourse implements Classes {
     public String getCapitalizedCourseName() {
         return this.getCourseName().toUpperCase();
     }
-    
+
     @Override
     public String toString() {
 

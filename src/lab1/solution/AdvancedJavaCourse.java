@@ -9,6 +9,7 @@ package lab1.solution;
 public class AdvancedJavaCourse extends Course {
 
     private String prerequisites;
+    
 
     public AdvancedJavaCourse(String cName, String cNum, double creds) {
         super(cName, cNum, creds);

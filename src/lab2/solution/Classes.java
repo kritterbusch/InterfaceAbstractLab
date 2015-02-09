@@ -1,5 +1,6 @@
 package lab2.solution;
 
+
 public interface Classes {
 
     public double getCredits();

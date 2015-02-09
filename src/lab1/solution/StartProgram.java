@@ -14,6 +14,7 @@ public class StartProgram {
         System.out.println("\n" + course);
         System.out.println("Prerequisite: " + course.getPrerequisites());
 
+        
         /*
          This principle offers convenience, in that you are only using one instance of the superclass "Course", rather than three:
          EXAMPLE:

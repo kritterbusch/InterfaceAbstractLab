@@ -7,6 +7,7 @@ package lab1.solution;
  * @author Kerry Ritterbusch
  * @version 1.00
  */
+
 public class IntroToProgrammingCourse extends Course {
 
     public IntroToProgrammingCourse(String cName, String cNum, double creds) {

@@ -14,8 +14,8 @@ public class StartProgram {
         course = new IntroToProgrammingCourse("Introduction to Programming", "CS-140", 4.0);
         System.out.println("\n" + course);
 
+        
         /*
-
          While not the greatest source, a line on the Wikipedia page for the Circle-eelipse problem states, 
          " . . . difficulties . . . can occur when a base class contains methods which mutate an object in a 
          manner which might invalidate a (stronger) invariant found in a derived class, 

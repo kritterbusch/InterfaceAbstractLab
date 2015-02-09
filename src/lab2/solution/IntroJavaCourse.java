@@ -6,6 +6,7 @@ package lab2.solution;
  * @author Kerry Ritterbusch
  * @version 1.00
  */
+
 public class IntroJavaCourse implements Classes {
 
     private String courseName;

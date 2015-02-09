@@ -2,6 +2,7 @@ package lab1.solution;
 
 import javax.swing.JOptionPane;
 
+
 public abstract class Course {
 
     private String courseName;
